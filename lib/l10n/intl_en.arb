@@ -1,0 +1,9 @@
+{
+    "welcome" : "Welcome in Auro",
+    "chooselanguage": "Please choose the language that suits your country and region for a better experience within the Auro application",
+    "language": "Language",
+    "country":"Country",
+    "select country": "Select country",
+    "selected language" : "English"
+
+}
