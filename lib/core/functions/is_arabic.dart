@@ -4,9 +4,5 @@ import 'package:intl/intl.dart';
 
 bool isArabic() {
   print('isArabic:${Intl.getCurrentLocale()}');
-  if (Intl.getCurrentLocale() == 'ar') {
-    return true;
-  } else {
-    return false;
-  }
+  return Intl.getCurrentLocale() == 'ar';
 }

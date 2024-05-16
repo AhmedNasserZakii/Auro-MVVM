@@ -26,6 +26,9 @@ class MessageLookup extends MessageLookupByLibrary {
             "Please choose the language that suits your country and region for a better experience within the Auro application"),
         "country": MessageLookupByLibrary.simpleMessage("Country"),
         "language": MessageLookupByLibrary.simpleMessage("Language"),
+        "selectCountry": MessageLookupByLibrary.simpleMessage("Select country"),
+        "selectedLanguage": MessageLookupByLibrary.simpleMessage("English"),
+        "skipButton": MessageLookupByLibrary.simpleMessage("continue"),
         "welcome": MessageLookupByLibrary.simpleMessage("Welcome in Auro")
       };
 }

@@ -3,6 +3,7 @@
     "chooselanguage": "برجاء اختيار اللغة التي تناسب بلدك ومنطقتك لتجربة أفضل داخل تطبيق أورو",
     "language": "اللغة",
     "country":"الدولة",
-    "select country": "اختر الدولة",
-    "selected language" : "العربية"
+    "selectCountry": "اختر الدولة",
+    "selectedLanguage" : "العربية",
+    "skipButton" :"المتابعة"
 }

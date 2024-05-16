@@ -90,9 +90,35 @@ class S {
     );
   }
 
-  // skipped getter for the 'select country' key
+  /// `Select country`
+  String get selectCountry {
+    return Intl.message(
+      'Select country',
+      name: 'selectCountry',
+      desc: '',
+      args: [],
+    );
+  }
 
-  // skipped getter for the 'selected language' key
+  /// `English`
+  String get selectedLanguage {
+    return Intl.message(
+      'English',
+      name: 'selectedLanguage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `continue`
+  String get skipButton {
+    return Intl.message(
+      'continue',
+      name: 'skipButton',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
