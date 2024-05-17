@@ -5,6 +5,7 @@
     "country":"Country",
     "selectCountry": "Select country",
     "selectedLanguage" : "English",
-    "skipButton" : "continue"
+    "skipButton" : "continue",
+    "discounts":"Discounts above discounts"
 
 }

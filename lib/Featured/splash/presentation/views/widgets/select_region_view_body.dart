@@ -1,5 +1,7 @@
+import 'package:auro_v2/core/utils/app_router.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../../../../core/widgets/custom_elevated_button.dart';
 import 'introduction_section.dart';
@@ -60,7 +62,12 @@ class _SelectRegionViewBodyState extends State<SelectRegionViewBody> {
                       child: const CountryDropdown(),
                     ),
                     const Expanded(child: SizedBox(height: 120)),
-                    const CustomElevatedButton(),
+                    CustomElevatedButton(
+                      title: S.of(context).skipButton,
+                      onPressed: () {
+                        GoRouter.of(context).push(AppRouter.kOnboardingView);
+                      },
+                    ),
                     SizedBox(height: 10.h),
                   ],
                 ),

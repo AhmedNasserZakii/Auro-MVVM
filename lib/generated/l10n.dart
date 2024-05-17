@@ -119,6 +119,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Discounts above discounts`
+  String get discounts {
+    return Intl.message(
+      'Discounts above discounts',
+      name: 'discounts',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

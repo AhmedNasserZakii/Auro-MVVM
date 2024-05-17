@@ -25,6 +25,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "chooselanguage": MessageLookupByLibrary.simpleMessage(
             "برجاء اختيار اللغة التي تناسب بلدك ومنطقتك لتجربة أفضل داخل تطبيق أورو"),
         "country": MessageLookupByLibrary.simpleMessage("الدولة"),
+        "discounts":
+            MessageLookupByLibrary.simpleMessage("خصومات فوق الخصومات"),
         "language": MessageLookupByLibrary.simpleMessage("اللغة"),
         "selectCountry": MessageLookupByLibrary.simpleMessage("اختر الدولة"),
         "selectedLanguage": MessageLookupByLibrary.simpleMessage("العربية"),

@@ -9,8 +9,12 @@ import '../utils/styles.dart';
 class CustomElevatedButton extends StatelessWidget {
   const CustomElevatedButton({
     super.key,
+    required this.title,
+    required this.onPressed,
   });
 
+  final String title;
+  final void Function() onPressed;
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -25,13 +29,13 @@ class CustomElevatedButton extends StatelessWidget {
         borderRadius: BorderRadius.circular(8),
       ),
       child: ElevatedButton(
-        onPressed: () {},
+        onPressed: onPressed,
         style: ElevatedButton.styleFrom(
           backgroundColor: Colors.transparent,
           elevation: 0,
         ),
         child: Text(
-          S.of(context).skipButton,
+          title,
           style: Styles.textStyle14.copyWith(
             color: kElevatedButtonTextColor,
             fontWeight: FontWeight.w500,
