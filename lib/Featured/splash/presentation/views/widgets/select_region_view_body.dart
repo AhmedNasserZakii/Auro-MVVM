@@ -63,7 +63,7 @@ class _SelectRegionViewBodyState extends State<SelectRegionViewBody> {
                     ),
                     const Expanded(child: SizedBox(height: 120)),
                     CustomElevatedButton(
-                      title: S.of(context).skipButton,
+                      title: S.of(context).continueButtom,
                       onPressed: () {
                         GoRouter.of(context).push(AppRouter.kOnboardingView);
                       },

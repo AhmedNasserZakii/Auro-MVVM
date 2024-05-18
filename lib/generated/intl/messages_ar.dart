@@ -24,18 +24,25 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "chooselanguage": MessageLookupByLibrary.simpleMessage(
             "برجاء اختيار اللغة التي تناسب بلدك ومنطقتك لتجربة أفضل داخل تطبيق أورو"),
+        "continueButtom": MessageLookupByLibrary.simpleMessage("المتابعة"),
         "country": MessageLookupByLibrary.simpleMessage("الدولة"),
         "discounts":
             MessageLookupByLibrary.simpleMessage("خصومات فوق الخصومات"),
+        "dontHaveAccount":
+            MessageLookupByLibrary.simpleMessage("ليس لديك حساب؟"),
         "enterPhoneNumber":
             MessageLookupByLibrary.simpleMessage("ادخل رقم الجوال"),
+        "forgetPassword":
+            MessageLookupByLibrary.simpleMessage("نسيت كلمة السر؟"),
         "language": MessageLookupByLibrary.simpleMessage("اللغة"),
         "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
+        "registerNow": MessageLookupByLibrary.simpleMessage("تسجيل الآن"),
         "selectCountry": MessageLookupByLibrary.simpleMessage("اختر الدولة"),
         "selectedLanguage": MessageLookupByLibrary.simpleMessage("العربية"),
+        "signIn": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
         "signInWelcomeMessage": MessageLookupByLibrary.simpleMessage(
             "قم بتسجيل الدخول للمتابعة والحصول علي أفضل العروض والخصومات لدينا"),
-        "skipButton": MessageLookupByLibrary.simpleMessage("المتابعة"),
+        "skipButtom": MessageLookupByLibrary.simpleMessage("تخطي"),
         "welcome": MessageLookupByLibrary.simpleMessage("مرحباً بك في أورو")
       };
 }

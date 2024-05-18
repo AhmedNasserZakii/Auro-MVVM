@@ -8,9 +8,11 @@ class CustomTextField extends StatelessWidget {
     super.key,
     required this.title,
     this.suffixIcon,
+    this.obScure,
   });
   final String title;
   final Widget? suffixIcon;
+  final bool? obScure;
   @override
   Widget build(BuildContext context) {
     return Expanded(
@@ -48,6 +50,7 @@ class CustomTextField extends StatelessWidget {
           suffixIcon: suffixIcon,
           suffixIconColor: kSelectLanguageIconColor,
         ),
+        obscureText: obScure == null ? false : obScure!,
       ),
     );
   }

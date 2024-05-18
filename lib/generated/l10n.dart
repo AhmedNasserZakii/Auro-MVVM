@@ -111,10 +111,20 @@ class S {
   }
 
   /// `continue`
-  String get skipButton {
+  String get continueButtom {
     return Intl.message(
       'continue',
-      name: 'skipButton',
+      name: 'continueButtom',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Skip`
+  String get skipButtom {
+    return Intl.message(
+      'Skip',
+      name: 'skipButtom',
       desc: '',
       args: [],
     );
@@ -155,6 +165,46 @@ class S {
     return Intl.message(
       'Password',
       name: 'password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Forget Password ?`
+  String get forgetPassword {
+    return Intl.message(
+      'Forget Password ?',
+      name: 'forgetPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign In`
+  String get signIn {
+    return Intl.message(
+      'Sign In',
+      name: 'signIn',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Dont have an account?`
+  String get dontHaveAccount {
+    return Intl.message(
+      'Dont have an account?',
+      name: 'dontHaveAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Register Now`
+  String get registerNow {
+    return Intl.message(
+      'Register Now',
+      name: 'registerNow',
       desc: '',
       args: [],
     );

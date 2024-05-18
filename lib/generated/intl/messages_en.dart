@@ -24,18 +24,25 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "chooselanguage": MessageLookupByLibrary.simpleMessage(
             "Please choose the language that suits your country and region for a better experience within the Auro application"),
+        "continueButtom": MessageLookupByLibrary.simpleMessage("continue"),
         "country": MessageLookupByLibrary.simpleMessage("Country"),
         "discounts":
             MessageLookupByLibrary.simpleMessage("Discounts above discounts"),
+        "dontHaveAccount":
+            MessageLookupByLibrary.simpleMessage("Dont have an account?"),
         "enterPhoneNumber":
             MessageLookupByLibrary.simpleMessage("Enter your phoner Number"),
+        "forgetPassword":
+            MessageLookupByLibrary.simpleMessage("Forget Password ?"),
         "language": MessageLookupByLibrary.simpleMessage("Language"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "registerNow": MessageLookupByLibrary.simpleMessage("Register Now"),
         "selectCountry": MessageLookupByLibrary.simpleMessage("Select country"),
         "selectedLanguage": MessageLookupByLibrary.simpleMessage("English"),
+        "signIn": MessageLookupByLibrary.simpleMessage("Sign In"),
         "signInWelcomeMessage": MessageLookupByLibrary.simpleMessage(
             "Log in to follow up and get our best offers and discounts"),
-        "skipButton": MessageLookupByLibrary.simpleMessage("continue"),
+        "skipButtom": MessageLookupByLibrary.simpleMessage("Skip"),
         "welcome": MessageLookupByLibrary.simpleMessage("Welcome in Auro")
       };
 }

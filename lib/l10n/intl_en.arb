@@ -5,11 +5,16 @@
     "country":"Country",
     "selectCountry": "Select country",
     "selectedLanguage" : "English",
-    "skipButton" : "continue",
+    "continueButtom" : "continue",
+    "skipButtom":"Skip",
     "discounts":"Discounts above discounts",
     "signInWelcomeMessage": "Log in to follow up and get our best offers and discounts",
     "enterPhoneNumber" :"Enter your phoner Number",
-    "password":"Password"
+    "password":"Password",
+    "forgetPassword": "Forget Password ?",
+    "signIn": "Sign In",
+    "dontHaveAccount": "Dont have an account?",
+    "registerNow" : "Register Now"
 
 
 }

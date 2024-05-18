@@ -3,6 +3,10 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 
 abstract class Styles {
+  static const textStyle12 = TextStyle(
+    fontSize: 12,
+    fontWeight: FontWeight.w500,
+  );
   static const textStyle14 = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w400,

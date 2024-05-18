@@ -16,7 +16,7 @@ class ButtonsSectionOnboardingScreen extends StatelessWidget {
     return Column(
       children: [
         CustomElevatedButton(
-          title: S.of(context).skipButton,
+          title: S.of(context).continueButtom,
           onPressed: () {
             GoRouter.of(context).push(AppRouter.kSignInView);
           },
@@ -27,7 +27,7 @@ class ButtonsSectionOnboardingScreen extends StatelessWidget {
             GoRouter.of(context).push(AppRouter.kSignInView);
           },
           child: Text(
-            'تخطي',
+            S.of(context).skipButtom,
             style: Styles.textStyle14.copyWith(
               color: kSelectLanguageIconColor,
             ),

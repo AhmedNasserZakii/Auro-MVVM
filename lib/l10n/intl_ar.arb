@@ -5,10 +5,15 @@
     "country":"الدولة",
     "selectCountry": "اختر الدولة",
     "selectedLanguage" : "العربية",
-    "skipButton" :"المتابعة",
+    "continueButtom" :"المتابعة",
+    "skipButtom":"تخطي",
     "discounts":"خصومات فوق الخصومات",
     "signInWelcomeMessage" : "قم بتسجيل الدخول للمتابعة والحصول علي أفضل العروض والخصومات لدينا",
     "enterPhoneNumber" :"ادخل رقم الجوال",
-    "password":"كلمة المرور"
+    "password":"كلمة المرور",
+    "forgetPassword": "نسيت كلمة السر؟",
+    "signIn": "تسجيل الدخول",
+    "dontHaveAccount": "ليس لديك حساب؟",
+    "registerNow": "تسجيل الآن"
 
 }
