@@ -1,10 +1,8 @@
-import 'dart:math';
-
-import 'package:auro_v2/core/utils/assets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 
+import 'package:auro_v2/core/utils/assets.dart';
 import '../../../../../core/widgets/custom_boxdecoration_from_buttom.dart';
 
 class SignInViewBody extends StatelessWidget {
