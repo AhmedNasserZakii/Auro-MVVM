@@ -4,8 +4,8 @@ import 'package:go_router/go_router.dart';
 
 import '../../../../../core/functions/is_arabic.dart';
 
-class CustomAppBarSignUpView extends StatelessWidget {
-  const CustomAppBarSignUpView({
+class CustomAppBarBackIcon extends StatelessWidget {
+  const CustomAppBarBackIcon({
     super.key,
   });
 

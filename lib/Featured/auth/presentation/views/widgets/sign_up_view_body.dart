@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
 
-import 'custom_appbar_sign_up_view.dart';
+import 'custom_appbar_back_icon.dart';
 import 'package:auro_v2/constant.dart';
 import 'package:auro_v2/core/utils/styles.dart';
 import 'package:auro_v2/generated/l10n.dart';
@@ -18,7 +18,7 @@ class SignUpViewBody extends StatelessWidget {
     return CustomScrollView(
       slivers: [
         const SliverToBoxAdapter(
-          child: CustomAppBarSignUpView(),
+          child: CustomAppBarBackIcon(),
         ),
         SliverFillRemaining(
           hasScrollBody: false,

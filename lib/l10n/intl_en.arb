@@ -21,7 +21,12 @@
     "emailAddress":"Email Address",
     "passwordConfirmation":"Password Confirmation",
     "newAccount":"New Register",
-    "alreadyHaveAccount" : "Already have an account"
+    "alreadyHaveAccount" : "Already have an account",
+    "messageForOTP": "Please enter the phone number or email registered with us to receive the verification code",
+    "emailorphone" : "Email Address or Phone Number",
+    "send" : "Send" ,
+    "rememberPassword" : "Remembered Your Password?",
+    "backToSignIn":"Back to SignIn"
 
 
 }

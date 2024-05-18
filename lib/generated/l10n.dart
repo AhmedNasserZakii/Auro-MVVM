@@ -279,6 +279,56 @@ class S {
       args: [],
     );
   }
+
+  /// `Please enter the phone number or email registered with us to receive the verification code`
+  String get messageForOTP {
+    return Intl.message(
+      'Please enter the phone number or email registered with us to receive the verification code',
+      name: 'messageForOTP',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email Address or Phone Number`
+  String get emailorphone {
+    return Intl.message(
+      'Email Address or Phone Number',
+      name: 'emailorphone',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Send`
+  String get send {
+    return Intl.message(
+      'Send',
+      name: 'send',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Remembered Your Password?`
+  String get rememberPassword {
+    return Intl.message(
+      'Remembered Your Password?',
+      name: 'rememberPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Back to SignIn`
+  String get backToSignIn {
+    return Intl.message(
+      'Back to SignIn',
+      name: 'backToSignIn',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

@@ -21,6 +21,11 @@
     "emailAddress":"البريد الالكتروني",
     "passwordConfirmation":"تأكيد - كلمة المرور",
     "newAccount":"تسجيل جديد",
-    "alreadyHaveAccount" : "لديك حساب بالفعل"
+    "alreadyHaveAccount" : "لديك حساب بالفعل",
+    "messageForOTP":"من فضلك ، قم بإدخال رقم الهاتف او البريد المسجل لدينا ليصلك عليه رمز التفعيل",
+    "emailorphone" : "البريد الالكتروني او رقم الجوال",
+    "send" : "إرسال",
+    "rememberPassword" : "تذكرت كلمة السر؟",
+    "backToSignIn":"العودة لتسجيل الدخول"
 
 }

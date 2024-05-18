@@ -1,3 +1,4 @@
+import 'package:auro_v2/Featured/auth/presentation/views/forget_password_view.dart';
 import 'package:auro_v2/Featured/auth/presentation/views/sign_in_view.dart';
 import 'package:auro_v2/Featured/splash/presentation/views/onboarding_view.dart';
 import 'package:auro_v2/Featured/splash/presentation/views/select_region_view.dart';
@@ -11,6 +12,7 @@ abstract class AppRouter {
   static const kOnboardingView = '/onBoardingView';
   static const kSignInView = '/signInView';
   static const kSignUpView = '/signUpView';
+  static const kForgetPasswordView = '/forgetPasswordView';
   static final GoRouter router = GoRouter(routes: [
     GoRoute(
       path: '/',
@@ -31,6 +33,10 @@ abstract class AppRouter {
     GoRoute(
       path: kSignUpView,
       builder: (context, state) => const SignUpView(),
+    ),
+    GoRoute(
+      path: kForgetPasswordView,
+      builder: (context, state) => const ForgetPasswordView(),
     ),
   ]);
 }

@@ -24,6 +24,8 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "alreadyHaveAccount":
             MessageLookupByLibrary.simpleMessage("لديك حساب بالفعل"),
+        "backToSignIn":
+            MessageLookupByLibrary.simpleMessage("العودة لتسجيل الدخول"),
         "chooselanguage": MessageLookupByLibrary.simpleMessage(
             "برجاء اختيار اللغة التي تناسب بلدك ومنطقتك لتجربة أفضل داخل تطبيق أورو"),
         "continueButtom": MessageLookupByLibrary.simpleMessage("المتابعة"),
@@ -36,6 +38,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("ليس لديك حساب؟"),
         "emailAddress":
             MessageLookupByLibrary.simpleMessage("البريد الالكتروني"),
+        "emailorphone": MessageLookupByLibrary.simpleMessage(
+            "البريد الالكتروني او رقم الجوال"),
         "enterAlldataRegistiration": MessageLookupByLibrary.simpleMessage(
             "يرجي ادخال جميع البيانات المطلوبة منك لإنشاء حساب جديد"),
         "enterPhoneNumber":
@@ -43,13 +47,18 @@ class MessageLookup extends MessageLookupByLibrary {
         "forgetPassword":
             MessageLookupByLibrary.simpleMessage("نسيت كلمة السر؟"),
         "language": MessageLookupByLibrary.simpleMessage("اللغة"),
+        "messageForOTP": MessageLookupByLibrary.simpleMessage(
+            "من فضلك ، قم بإدخال رقم الهاتف او البريد المسجل لدينا ليصلك عليه رمز التفعيل"),
         "newAccount": MessageLookupByLibrary.simpleMessage("تسجيل جديد"),
         "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
         "passwordConfirmation":
             MessageLookupByLibrary.simpleMessage("تأكيد - كلمة المرور"),
         "registerNow": MessageLookupByLibrary.simpleMessage("تسجيل الآن"),
+        "rememberPassword":
+            MessageLookupByLibrary.simpleMessage("تذكرت كلمة السر؟"),
         "selectCountry": MessageLookupByLibrary.simpleMessage("اختر الدولة"),
         "selectedLanguage": MessageLookupByLibrary.simpleMessage("العربية"),
+        "send": MessageLookupByLibrary.simpleMessage("إرسال"),
         "signIn": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
         "signInWelcomeMessage": MessageLookupByLibrary.simpleMessage(
             "قم بتسجيل الدخول للمتابعة والحصول علي أفضل العروض والخصومات لدينا"),

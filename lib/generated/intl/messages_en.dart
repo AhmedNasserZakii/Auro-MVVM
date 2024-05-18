@@ -24,6 +24,7 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "alreadyHaveAccount":
             MessageLookupByLibrary.simpleMessage("Already have an account"),
+        "backToSignIn": MessageLookupByLibrary.simpleMessage("Back to SignIn"),
         "chooselanguage": MessageLookupByLibrary.simpleMessage(
             "Please choose the language that suits your country and region for a better experience within the Auro application"),
         "continueButtom": MessageLookupByLibrary.simpleMessage("continue"),
@@ -35,6 +36,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "dontHaveAccount":
             MessageLookupByLibrary.simpleMessage("Dont have an account?"),
         "emailAddress": MessageLookupByLibrary.simpleMessage("Email Address"),
+        "emailorphone": MessageLookupByLibrary.simpleMessage(
+            "Email Address or Phone Number"),
         "enterAlldataRegistiration": MessageLookupByLibrary.simpleMessage(
             "Please enter all the required information to create a new account"),
         "enterPhoneNumber":
@@ -42,13 +45,18 @@ class MessageLookup extends MessageLookupByLibrary {
         "forgetPassword":
             MessageLookupByLibrary.simpleMessage("Forget Password ?"),
         "language": MessageLookupByLibrary.simpleMessage("Language"),
+        "messageForOTP": MessageLookupByLibrary.simpleMessage(
+            "Please enter the phone number or email registered with us to receive the verification code"),
         "newAccount": MessageLookupByLibrary.simpleMessage("New Register"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
         "passwordConfirmation":
             MessageLookupByLibrary.simpleMessage("Password Confirmation"),
         "registerNow": MessageLookupByLibrary.simpleMessage("Register Now"),
+        "rememberPassword":
+            MessageLookupByLibrary.simpleMessage("Remembered Your Password?"),
         "selectCountry": MessageLookupByLibrary.simpleMessage("Select country"),
         "selectedLanguage": MessageLookupByLibrary.simpleMessage("English"),
+        "send": MessageLookupByLibrary.simpleMessage("Send"),
         "signIn": MessageLookupByLibrary.simpleMessage("Sign In"),
         "signInWelcomeMessage": MessageLookupByLibrary.simpleMessage(
             "Log in to follow up and get our best offers and discounts"),
