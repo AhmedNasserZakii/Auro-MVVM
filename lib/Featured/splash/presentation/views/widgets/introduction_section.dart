@@ -15,7 +15,7 @@ class ItroductionSection extends StatelessWidget {
     return Column(
       children: [
         SvgPicture.asset(
-          AssetsData.logo,
+          AssetsData.logoLight,
           width: 147.w,
           height: 60.h,
         ),

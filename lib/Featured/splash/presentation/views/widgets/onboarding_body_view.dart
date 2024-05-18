@@ -18,19 +18,20 @@ class OnboardingBodyView extends StatelessWidget {
           child: Column(
             children: [
               const OnboardingImage(),
-              Container(
-                height: 295.h,
-                width: double.infinity,
-                decoration: containerBoxDecorationFromButtom(),
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 16),
-                  child: Column(
-                    children: [
-                      SizedBox(height: 14.h),
-                      const TextSectionOnboardingScreen(),
-                      SizedBox(height: 30.h),
-                      const ButtonsSectionOnboardingScreen(),
-                    ],
+              Expanded(
+                child: Container(
+                  width: double.infinity,
+                  decoration: containerBoxDecorationFromButtom(),
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Column(
+                      children: [
+                        SizedBox(height: 14.h),
+                        const TextSectionOnboardingScreen(),
+                        SizedBox(height: 30.h),
+                        const ButtonsSectionOnboardingScreen(),
+                      ],
+                    ),
                   ),
                 ),
               ),
