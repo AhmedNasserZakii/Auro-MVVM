@@ -33,6 +33,7 @@ dependencies:
   custom_flutter_painter: ^1.0.1
   flutter:
     sdk: flutter
+  flutter_country_code_picker: ^0.1.2
   flutter_localizations:
     sdk: flutter
   flutter_screenutil: ^5.9.1
@@ -42,7 +43,7 @@ dependencies:
   google_fonts: ^6.2.1
   page_transition: ^2.1.0
   smooth_page_indicator: ^1.1.0
-
+  intl_phone_number_input: ^0.7.0+2
 dev_dependencies:
   flutter_lints: ^3.0.0
   flutter_test:
@@ -62,7 +63,6 @@ flutter:
     - assets/logo/
     - assets/images/
     - assets/icons/
-    
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

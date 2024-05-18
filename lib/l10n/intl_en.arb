@@ -6,6 +6,10 @@
     "selectCountry": "Select country",
     "selectedLanguage" : "English",
     "skipButton" : "continue",
-    "discounts":"Discounts above discounts"
+    "discounts":"Discounts above discounts",
+    "signInWelcomeMessage": "Log in to follow up and get our best offers and discounts",
+    "enterPhoneNumber" :"Enter your phoner Number",
+    "password":"Password"
+
 
 }

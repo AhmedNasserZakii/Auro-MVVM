@@ -27,9 +27,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "country": MessageLookupByLibrary.simpleMessage("Country"),
         "discounts":
             MessageLookupByLibrary.simpleMessage("Discounts above discounts"),
+        "enterPhoneNumber":
+            MessageLookupByLibrary.simpleMessage("Enter your phoner Number"),
         "language": MessageLookupByLibrary.simpleMessage("Language"),
+        "password": MessageLookupByLibrary.simpleMessage("Password"),
         "selectCountry": MessageLookupByLibrary.simpleMessage("Select country"),
         "selectedLanguage": MessageLookupByLibrary.simpleMessage("English"),
+        "signInWelcomeMessage": MessageLookupByLibrary.simpleMessage(
+            "Log in to follow up and get our best offers and discounts"),
         "skipButton": MessageLookupByLibrary.simpleMessage("continue"),
         "welcome": MessageLookupByLibrary.simpleMessage("Welcome in Auro")
       };

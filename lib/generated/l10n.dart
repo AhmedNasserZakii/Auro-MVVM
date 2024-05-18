@@ -129,6 +129,36 @@ class S {
       args: [],
     );
   }
+
+  /// `Log in to follow up and get our best offers and discounts`
+  String get signInWelcomeMessage {
+    return Intl.message(
+      'Log in to follow up and get our best offers and discounts',
+      name: 'signInWelcomeMessage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your phoner Number`
+  String get enterPhoneNumber {
+    return Intl.message(
+      'Enter your phoner Number',
+      name: 'enterPhoneNumber',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password`
+  String get password {
+    return Intl.message(
+      'Password',
+      name: 'password',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

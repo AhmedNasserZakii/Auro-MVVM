@@ -6,5 +6,9 @@
     "selectCountry": "اختر الدولة",
     "selectedLanguage" : "العربية",
     "skipButton" :"المتابعة",
-    "discounts":"خصومات فوق الخصومات"
+    "discounts":"خصومات فوق الخصومات",
+    "signInWelcomeMessage" : "قم بتسجيل الدخول للمتابعة والحصول علي أفضل العروض والخصومات لدينا",
+    "enterPhoneNumber" :"ادخل رقم الجوال",
+    "password":"كلمة المرور"
+
 }

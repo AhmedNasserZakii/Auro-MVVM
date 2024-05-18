@@ -27,9 +27,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "country": MessageLookupByLibrary.simpleMessage("الدولة"),
         "discounts":
             MessageLookupByLibrary.simpleMessage("خصومات فوق الخصومات"),
+        "enterPhoneNumber":
+            MessageLookupByLibrary.simpleMessage("ادخل رقم الجوال"),
         "language": MessageLookupByLibrary.simpleMessage("اللغة"),
+        "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
         "selectCountry": MessageLookupByLibrary.simpleMessage("اختر الدولة"),
         "selectedLanguage": MessageLookupByLibrary.simpleMessage("العربية"),
+        "signInWelcomeMessage": MessageLookupByLibrary.simpleMessage(
+            "قم بتسجيل الدخول للمتابعة والحصول علي أفضل العروض والخصومات لدينا"),
         "skipButton": MessageLookupByLibrary.simpleMessage("المتابعة"),
         "welcome": MessageLookupByLibrary.simpleMessage("مرحباً بك في أورو")
       };
