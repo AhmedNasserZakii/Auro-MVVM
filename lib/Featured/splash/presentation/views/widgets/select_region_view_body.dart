@@ -7,7 +7,6 @@ import '../../../../../core/widgets/custom_elevated_button.dart';
 import 'introduction_section.dart';
 import 'select_language_drop_down_menu.dart';
 import 'package:auro_v2/Featured/splash/presentation/views/widgets/select_country_drop_down_menu.dart';
-import 'package:auro_v2/core/functions/is_arabic.dart';
 import 'package:auro_v2/generated/l10n.dart';
 
 class SelectRegionViewBody extends StatefulWidget {
