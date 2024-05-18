@@ -35,10 +35,8 @@ class _SelectRegionViewBodyState extends State<SelectRegionViewBody> {
                   horizontal: 16,
                 ),
                 child: Column(
-                  crossAxisAlignment: isArabic() == false
-                      ? CrossAxisAlignment.end
-                      : CrossAxisAlignment.start,
-                  // mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  //mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     Expanded(child: SizedBox(height: 10.h)),
                     const ItroductionSection(),
