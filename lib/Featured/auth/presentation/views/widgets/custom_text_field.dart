@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../../../constant.dart';
 import '../../../../../core/utils/styles.dart';
@@ -16,41 +17,44 @@ class CustomTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      child: TextField(
-        decoration: InputDecoration(
-          border: const OutlineInputBorder(
-              // borderSide: BorderSide(
-              //   color: Colors.amber,
-              // ),
-              // borderRadius: BorderRadius.all(
-              //   Radius.circular(8),
-              // ),
+      child: SizedBox(
+        height: 45.h,
+        child: TextField(
+          decoration: InputDecoration(
+            border: const OutlineInputBorder(
+                // borderSide: BorderSide(
+                //   color: Colors.amber,
+                // ),
+                // borderRadius: BorderRadius.all(
+                //   Radius.circular(8),
+                // ),
+                ),
+            enabledBorder: const OutlineInputBorder(
+              borderSide: BorderSide(
+                color: kSelectLanguageBorderColor,
               ),
-          enabledBorder: const OutlineInputBorder(
-            borderSide: BorderSide(
-              color: kSelectLanguageBorderColor,
+              borderRadius: BorderRadius.all(
+                Radius.circular(8),
+              ),
             ),
-            borderRadius: BorderRadius.all(
-              Radius.circular(8),
+            focusedBorder: const OutlineInputBorder(
+              borderSide: BorderSide(
+                color: kSelectLanguageBorderColor,
+              ),
+              borderRadius: BorderRadius.all(
+                Radius.circular(8),
+              ),
             ),
+            label: Text(
+              title,
+              style: Styles.textStyleHint14,
+            ),
+            //prefixIcon: prefixIcon,
+            suffixIcon: suffixIcon,
+            suffixIconColor: kSelectLanguageIconColor,
           ),
-          focusedBorder: const OutlineInputBorder(
-            borderSide: BorderSide(
-              color: kSelectLanguageBorderColor,
-            ),
-            borderRadius: BorderRadius.all(
-              Radius.circular(8),
-            ),
-          ),
-          label: Text(
-            title,
-            style: Styles.textStyleHint14,
-          ),
-          //prefixIcon: prefixIcon,
-          suffixIcon: suffixIcon,
-          suffixIconColor: kSelectLanguageIconColor,
+          obscureText: obScure == null ? false : obScure!,
         ),
-        obscureText: obScure == null ? false : obScure!,
       ),
     );
   }

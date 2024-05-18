@@ -22,20 +22,31 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "alreadyHaveAccount":
+            MessageLookupByLibrary.simpleMessage("لديك حساب بالفعل"),
         "chooselanguage": MessageLookupByLibrary.simpleMessage(
             "برجاء اختيار اللغة التي تناسب بلدك ومنطقتك لتجربة أفضل داخل تطبيق أورو"),
         "continueButtom": MessageLookupByLibrary.simpleMessage("المتابعة"),
         "country": MessageLookupByLibrary.simpleMessage("الدولة"),
+        "createNewAccount":
+            MessageLookupByLibrary.simpleMessage("إنشاء حساب جديد"),
         "discounts":
             MessageLookupByLibrary.simpleMessage("خصومات فوق الخصومات"),
         "dontHaveAccount":
             MessageLookupByLibrary.simpleMessage("ليس لديك حساب؟"),
+        "emailAddress":
+            MessageLookupByLibrary.simpleMessage("البريد الالكتروني"),
+        "enterAlldataRegistiration": MessageLookupByLibrary.simpleMessage(
+            "يرجي ادخال جميع البيانات المطلوبة منك لإنشاء حساب جديد"),
         "enterPhoneNumber":
             MessageLookupByLibrary.simpleMessage("ادخل رقم الجوال"),
         "forgetPassword":
             MessageLookupByLibrary.simpleMessage("نسيت كلمة السر؟"),
         "language": MessageLookupByLibrary.simpleMessage("اللغة"),
+        "newAccount": MessageLookupByLibrary.simpleMessage("تسجيل جديد"),
         "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
+        "passwordConfirmation":
+            MessageLookupByLibrary.simpleMessage("تأكيد - كلمة المرور"),
         "registerNow": MessageLookupByLibrary.simpleMessage("تسجيل الآن"),
         "selectCountry": MessageLookupByLibrary.simpleMessage("اختر الدولة"),
         "selectedLanguage": MessageLookupByLibrary.simpleMessage("العربية"),
@@ -43,6 +54,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "signInWelcomeMessage": MessageLookupByLibrary.simpleMessage(
             "قم بتسجيل الدخول للمتابعة والحصول علي أفضل العروض والخصومات لدينا"),
         "skipButtom": MessageLookupByLibrary.simpleMessage("تخطي"),
+        "userName": MessageLookupByLibrary.simpleMessage("اسم المستخدم"),
         "welcome": MessageLookupByLibrary.simpleMessage("مرحباً بك في أورو")
       };
 }

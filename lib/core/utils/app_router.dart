@@ -3,12 +3,14 @@ import 'package:auro_v2/Featured/splash/presentation/views/onboarding_view.dart'
 import 'package:auro_v2/Featured/splash/presentation/views/select_region_view.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../Featured/auth/presentation/views/sign_up_view.dart';
 import '../../Featured/splash/presentation/views/splash_view.dart';
 
 abstract class AppRouter {
   static const kSelectRegionView = '/selectRegionView';
   static const kOnboardingView = '/onBoardingView';
   static const kSignInView = '/signInView';
+  static const kSignUpView = '/signUpView';
   static final GoRouter router = GoRouter(routes: [
     GoRoute(
       path: '/',
@@ -25,6 +27,10 @@ abstract class AppRouter {
     GoRoute(
       path: kSignInView,
       builder: (context, state) => const SignInView(),
+    ),
+    GoRoute(
+      path: kSignUpView,
+      builder: (context, state) => const SignUpView(),
     ),
   ]);
 }

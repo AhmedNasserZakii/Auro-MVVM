@@ -7,8 +7,9 @@ import 'custom_text_field.dart';
 class OnTappedIconTextField extends StatefulWidget {
   const OnTappedIconTextField({
     super.key,
+    this.title,
   });
-
+  final String? title;
   @override
   State<OnTappedIconTextField> createState() => _OnTappedIconTextFieldState();
 }
@@ -33,7 +34,7 @@ class _OnTappedIconTextFieldState extends State<OnTappedIconTextField> {
     return Row(
       children: [
         CustomTextField(
-          title: S.of(context).password,
+          title: widget.title == null ? S.of(context).password : widget.title!,
           suffixIcon: GestureDetector(
             onTap: _toggleIcon,
             child: suffixIcon,

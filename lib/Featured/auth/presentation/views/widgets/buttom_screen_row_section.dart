@@ -3,11 +3,16 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../../../constant.dart';
 import '../../../../../core/utils/styles.dart';
-import '../../../../../generated/l10n.dart';
 
-class RegistrationSectionButtomsSignInview extends StatelessWidget {
-  const RegistrationSectionButtomsSignInview({super.key});
-
+class ButtomScreenRowSection extends StatelessWidget {
+  const ButtomScreenRowSection(
+      {super.key,
+      required this.textTitle,
+      required this.buttomTitle,
+      required this.onPressed});
+  final String textTitle;
+  final String buttomTitle;
+  final void Function() onPressed;
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -16,12 +21,12 @@ class RegistrationSectionButtomsSignInview extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              S.of(context).dontHaveAccount,
+              textTitle,
             ),
             TextButton(
-              onPressed: () {},
+              onPressed: onPressed,
               child: Text(
-                S.of(context).registerNow,
+                buttomTitle,
                 style: Styles.textStyle14.copyWith(
                   color: kMainColor,
                   fontWeight: FontWeight.w600,

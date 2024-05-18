@@ -31,6 +31,7 @@ class MyApp extends StatelessWidget {
           routerConfig: AppRouter.router,
           title: 'auro',
           theme: ThemeData(
+            scaffoldBackgroundColor: Colors.white,
             textTheme: GoogleFonts.ibmPlexSansArabicTextTheme(),
           ),
         );

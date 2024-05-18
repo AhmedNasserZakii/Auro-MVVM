@@ -14,7 +14,14 @@
     "forgetPassword": "Forget Password ?",
     "signIn": "Sign In",
     "dontHaveAccount": "Dont have an account?",
-    "registerNow" : "Register Now"
+    "registerNow" : "Register Now",
+    "createNewAccount" : "Create New Account",
+    "enterAlldataRegistiration" : "Please enter all the required information to create a new account",
+    "userName": "User Name",
+    "emailAddress":"Email Address",
+    "passwordConfirmation":"Password Confirmation",
+    "newAccount":"New Register",
+    "alreadyHaveAccount" : "Already have an account"
 
 
 }

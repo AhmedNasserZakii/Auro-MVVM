@@ -209,6 +209,76 @@ class S {
       args: [],
     );
   }
+
+  /// `Create New Account`
+  String get createNewAccount {
+    return Intl.message(
+      'Create New Account',
+      name: 'createNewAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please enter all the required information to create a new account`
+  String get enterAlldataRegistiration {
+    return Intl.message(
+      'Please enter all the required information to create a new account',
+      name: 'enterAlldataRegistiration',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `User Name`
+  String get userName {
+    return Intl.message(
+      'User Name',
+      name: 'userName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email Address`
+  String get emailAddress {
+    return Intl.message(
+      'Email Address',
+      name: 'emailAddress',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password Confirmation`
+  String get passwordConfirmation {
+    return Intl.message(
+      'Password Confirmation',
+      name: 'passwordConfirmation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `New Register`
+  String get newAccount {
+    return Intl.message(
+      'New Register',
+      name: 'newAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Already have an account`
+  String get alreadyHaveAccount {
+    return Intl.message(
+      'Already have an account',
+      name: 'alreadyHaveAccount',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

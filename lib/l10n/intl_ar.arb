@@ -14,6 +14,13 @@
     "forgetPassword": "نسيت كلمة السر؟",
     "signIn": "تسجيل الدخول",
     "dontHaveAccount": "ليس لديك حساب؟",
-    "registerNow": "تسجيل الآن"
+    "registerNow": "تسجيل الآن",
+    "createNewAccount": "إنشاء حساب جديد",
+    "enterAlldataRegistiration":"يرجي ادخال جميع البيانات المطلوبة منك لإنشاء حساب جديد",
+    "userName":"اسم المستخدم",
+    "emailAddress":"البريد الالكتروني",
+    "passwordConfirmation":"تأكيد - كلمة المرور",
+    "newAccount":"تسجيل جديد",
+    "alreadyHaveAccount" : "لديك حساب بالفعل"
 
 }

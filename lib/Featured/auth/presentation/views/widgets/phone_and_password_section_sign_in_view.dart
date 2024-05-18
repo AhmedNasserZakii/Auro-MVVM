@@ -4,8 +4,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../../../../constant.dart';
 import '../../../../../core/utils/styles.dart';
 import '../../../../../generated/l10n.dart';
-import 'custom_select_contry_code.dart';
-import 'custom_text_field.dart';
+
+import 'enter_phone_number_section.dart';
 import 'on_tapped_icon_text_field.dart';
 
 class PhoneAndPasswordSectionSignInView extends StatelessWidget {
@@ -15,15 +15,7 @@ class PhoneAndPasswordSectionSignInView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Row(
-          children: [
-            const CustomSelectContryCode(),
-            SizedBox(width: 8.w),
-            CustomTextField(
-              title: S.of(context).enterPhoneNumber,
-            ),
-          ],
-        ),
+        const EnterPhoneNumberSection(),
         SizedBox(height: 14.h),
         const OnTappedIconTextField(),
         Align(
