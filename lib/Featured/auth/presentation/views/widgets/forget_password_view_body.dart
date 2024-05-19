@@ -10,6 +10,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
 
+import 'headet_texts.dart';
+
 class ForgetPasswordViewBody extends StatelessWidget {
   const ForgetPasswordViewBody({super.key});
 
@@ -28,16 +30,9 @@ class ForgetPasswordViewBody extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 SizedBox(height: 12.h),
-                Text(
-                  S.of(context).forgetPassword,
-                  style: Styles.textStyle24,
-                ),
-                SizedBox(height: 8.h),
-                Text(
-                  S.of(context).messageForOTP,
-                  style: Styles.textStyle14.copyWith(
-                    color: kSeconderyColor,
-                  ),
+                HeaderTexts(
+                  title: S.of(context).forgetPassword,
+                  subTitle: S.of(context).messageForOTP,
                 ),
                 SizedBox(height: 20.h),
                 Row(

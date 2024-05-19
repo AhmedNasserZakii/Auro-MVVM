@@ -31,8 +31,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "confirm": MessageLookupByLibrary.simpleMessage("تأكيد"),
         "continueButtom": MessageLookupByLibrary.simpleMessage("المتابعة"),
         "country": MessageLookupByLibrary.simpleMessage("الدولة"),
+        "create": MessageLookupByLibrary.simpleMessage("إنشاء"),
         "createNewAccount":
             MessageLookupByLibrary.simpleMessage("إنشاء حساب جديد"),
+        "createNewPassword":
+            MessageLookupByLibrary.simpleMessage("إنشاء كلمة مرور جديدة"),
+        "createNewPasswordMessage": MessageLookupByLibrary.simpleMessage(
+            "يرجي استخدام كلمة سر جديدة والابتعاد عن الكلمات السابقة لضمان حمايتك"),
         "didnotRecive": MessageLookupByLibrary.simpleMessage("لم يصلك الرمز ؟"),
         "discounts":
             MessageLookupByLibrary.simpleMessage("خصومات فوق الخصومات"),

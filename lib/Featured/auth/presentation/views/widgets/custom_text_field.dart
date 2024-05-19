@@ -20,6 +20,7 @@ class CustomTextField extends StatelessWidget {
       child: SizedBox(
         height: 45.h,
         child: TextField(
+          cursorColor: kSeconderyColor,
           decoration: InputDecoration(
             border: const OutlineInputBorder(
                 // borderSide: BorderSide(

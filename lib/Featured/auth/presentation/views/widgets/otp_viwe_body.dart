@@ -9,6 +9,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
 
 import 'custom_appbar_back_icon.dart';
+import 'headet_texts.dart';
 import 'otp_inputs.dart';
 
 class OtpViweBody extends StatelessWidget {
@@ -28,16 +29,9 @@ class OtpViweBody extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  S.of(context).verificationcode,
-                  style: Styles.textStyle24,
-                ),
-                SizedBox(height: 8.h),
-                Text(
-                  S.of(context).verificationMessage,
-                  style: Styles.textStyle14.copyWith(
-                    color: kSeconderyColor,
-                  ),
+                HeaderTexts(
+                  title: S.of(context).verificationcode,
+                  subTitle: S.of(context).verificationMessage,
                 ),
                 SizedBox(height: 20.h),
                 const OTPContainersInput(),

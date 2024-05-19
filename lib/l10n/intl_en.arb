@@ -31,7 +31,10 @@
     "verificationMessage":"Please enter the activation code sent to the number +966 *** *** **63 to create a new password",
     "didnotRecive": "Didn't receive the code?",
     "resend": "Resend",
-    "confirm": "Confirm"
+    "confirm": "Confirm",
+    "createNewPassword": "Create New Password",
+    "createNewPasswordMessage": "Please use a new password and avoid using previous passwords to ensure your protection.",
+    "create": "Create"
 
 
 }

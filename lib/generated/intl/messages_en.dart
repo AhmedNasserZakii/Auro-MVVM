@@ -30,8 +30,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "confirm": MessageLookupByLibrary.simpleMessage("Confirm"),
         "continueButtom": MessageLookupByLibrary.simpleMessage("continue"),
         "country": MessageLookupByLibrary.simpleMessage("Country"),
+        "create": MessageLookupByLibrary.simpleMessage("Create"),
         "createNewAccount":
             MessageLookupByLibrary.simpleMessage("Create New Account"),
+        "createNewPassword":
+            MessageLookupByLibrary.simpleMessage("Create New Password"),
+        "createNewPasswordMessage": MessageLookupByLibrary.simpleMessage(
+            "Please use a new password and avoid using previous passwords to ensure your protection."),
         "didnotRecive":
             MessageLookupByLibrary.simpleMessage("Didn\'t receive the code?"),
         "discounts":

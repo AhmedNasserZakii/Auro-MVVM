@@ -8,6 +8,7 @@ import 'custom_appbar_back_icon.dart';
 import 'package:auro_v2/constant.dart';
 import 'package:auro_v2/core/utils/styles.dart';
 import 'package:auro_v2/generated/l10n.dart';
+import 'headet_texts.dart';
 import 'registration_info_section.dart';
 
 class SignUpViewBody extends StatelessWidget {
@@ -27,16 +28,9 @@ class SignUpViewBody extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  S.of(context).createNewAccount,
-                  style: Styles.textStyle24,
-                ),
-                SizedBox(height: 8.h),
-                Text(
-                  S.of(context).enterAlldataRegistiration,
-                  style: Styles.textStyle14.copyWith(
-                    color: kSeconderyColor,
-                  ),
+                HeaderTexts(
+                  subTitle: S.of(context).enterAlldataRegistiration,
+                  title: S.of(context).createNewAccount,
                 ),
                 SizedBox(height: 19.h),
                 const RegistrationInfoSection(),

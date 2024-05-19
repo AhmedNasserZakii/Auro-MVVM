@@ -15,16 +15,16 @@ class OnTappedIconTextField extends StatefulWidget {
 }
 
 class _OnTappedIconTextFieldState extends State<OnTappedIconTextField> {
-  Icon suffixIcon = const Icon(FontAwesomeIcons.eye);
-  bool? obScure;
+  Icon suffixIcon = const Icon(FontAwesomeIcons.eyeSlash);
+  bool obScure = true;
   void _toggleIcon() {
     setState(() {
-      if (suffixIcon.icon == FontAwesomeIcons.eye) {
-        suffixIcon = const Icon(FontAwesomeIcons.eyeSlash);
-        obScure = true;
-      } else {
+      if (suffixIcon.icon == FontAwesomeIcons.eyeSlash) {
         suffixIcon = const Icon(FontAwesomeIcons.eye);
         obScure = false;
+      } else {
+        suffixIcon = const Icon(FontAwesomeIcons.eyeSlash);
+        obScure = true;
       }
     });
   }

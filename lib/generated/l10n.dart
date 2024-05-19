@@ -379,6 +379,36 @@ class S {
       args: [],
     );
   }
+
+  /// `Create New Password`
+  String get createNewPassword {
+    return Intl.message(
+      'Create New Password',
+      name: 'createNewPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please use a new password and avoid using previous passwords to ensure your protection.`
+  String get createNewPasswordMessage {
+    return Intl.message(
+      'Please use a new password and avoid using previous passwords to ensure your protection.',
+      name: 'createNewPasswordMessage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create`
+  String get create {
+    return Intl.message(
+      'Create',
+      name: 'create',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
