@@ -7,6 +7,7 @@ const kElevatedButtonTextColor = Colors.white;
 const kOnboardingBackgroundColor = Colors.black;
 const kContryCodeConatinerColor = Color(0xffEFF1F6);
 const kMainColor = Color(0xffB40D1A);
+const kContainerLineColor = Color(0xffCCD3D9);
 const kElevatedButtonLinearColors = <Color>[
   Color(0xffB40D1A),
   Color(0xff9C0C19),

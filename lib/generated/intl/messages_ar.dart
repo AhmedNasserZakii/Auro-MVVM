@@ -28,10 +28,12 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("العودة لتسجيل الدخول"),
         "chooselanguage": MessageLookupByLibrary.simpleMessage(
             "برجاء اختيار اللغة التي تناسب بلدك ومنطقتك لتجربة أفضل داخل تطبيق أورو"),
+        "confirm": MessageLookupByLibrary.simpleMessage("تأكيد"),
         "continueButtom": MessageLookupByLibrary.simpleMessage("المتابعة"),
         "country": MessageLookupByLibrary.simpleMessage("الدولة"),
         "createNewAccount":
             MessageLookupByLibrary.simpleMessage("إنشاء حساب جديد"),
+        "didnotRecive": MessageLookupByLibrary.simpleMessage("لم يصلك الرمز ؟"),
         "discounts":
             MessageLookupByLibrary.simpleMessage("خصومات فوق الخصومات"),
         "dontHaveAccount":
@@ -56,6 +58,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "registerNow": MessageLookupByLibrary.simpleMessage("تسجيل الآن"),
         "rememberPassword":
             MessageLookupByLibrary.simpleMessage("تذكرت كلمة السر؟"),
+        "resend": MessageLookupByLibrary.simpleMessage("إعادة إرسال"),
         "selectCountry": MessageLookupByLibrary.simpleMessage("اختر الدولة"),
         "selectedLanguage": MessageLookupByLibrary.simpleMessage("العربية"),
         "send": MessageLookupByLibrary.simpleMessage("إرسال"),
@@ -64,6 +67,9 @@ class MessageLookup extends MessageLookupByLibrary {
             "قم بتسجيل الدخول للمتابعة والحصول علي أفضل العروض والخصومات لدينا"),
         "skipButtom": MessageLookupByLibrary.simpleMessage("تخطي"),
         "userName": MessageLookupByLibrary.simpleMessage("اسم المستخدم"),
+        "verificationMessage": MessageLookupByLibrary.simpleMessage(
+            "يرجي ادخال رمز التفعيل المرسل علي رقم +966 *** *** **63 لإنشاء كلمة مرور جديد"),
+        "verificationcode": MessageLookupByLibrary.simpleMessage("رمز التفعيل"),
         "welcome": MessageLookupByLibrary.simpleMessage("مرحباً بك في أورو")
       };
 }

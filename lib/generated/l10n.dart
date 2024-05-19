@@ -329,6 +329,56 @@ class S {
       args: [],
     );
   }
+
+  /// `Verification Code`
+  String get verificationcode {
+    return Intl.message(
+      'Verification Code',
+      name: 'verificationcode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please enter the activation code sent to the number +966 *** *** **63 to create a new password`
+  String get verificationMessage {
+    return Intl.message(
+      'Please enter the activation code sent to the number +966 *** *** **63 to create a new password',
+      name: 'verificationMessage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Didn't receive the code?`
+  String get didnotRecive {
+    return Intl.message(
+      'Didn\'t receive the code?',
+      name: 'didnotRecive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Resend`
+  String get resend {
+    return Intl.message(
+      'Resend',
+      name: 'resend',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirm`
+  String get confirm {
+    return Intl.message(
+      'Confirm',
+      name: 'confirm',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

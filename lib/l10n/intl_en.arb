@@ -26,7 +26,12 @@
     "emailorphone" : "Email Address or Phone Number",
     "send" : "Send" ,
     "rememberPassword" : "Remembered Your Password?",
-    "backToSignIn":"Back to SignIn"
+    "backToSignIn":"Back to SignIn",
+    "verificationcode": "Verification Code",
+    "verificationMessage":"Please enter the activation code sent to the number +966 *** *** **63 to create a new password",
+    "didnotRecive": "Didn't receive the code?",
+    "resend": "Resend",
+    "confirm": "Confirm"
 
 
 }

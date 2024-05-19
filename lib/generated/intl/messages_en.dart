@@ -27,10 +27,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "backToSignIn": MessageLookupByLibrary.simpleMessage("Back to SignIn"),
         "chooselanguage": MessageLookupByLibrary.simpleMessage(
             "Please choose the language that suits your country and region for a better experience within the Auro application"),
+        "confirm": MessageLookupByLibrary.simpleMessage("Confirm"),
         "continueButtom": MessageLookupByLibrary.simpleMessage("continue"),
         "country": MessageLookupByLibrary.simpleMessage("Country"),
         "createNewAccount":
             MessageLookupByLibrary.simpleMessage("Create New Account"),
+        "didnotRecive":
+            MessageLookupByLibrary.simpleMessage("Didn\'t receive the code?"),
         "discounts":
             MessageLookupByLibrary.simpleMessage("Discounts above discounts"),
         "dontHaveAccount":
@@ -54,6 +57,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "registerNow": MessageLookupByLibrary.simpleMessage("Register Now"),
         "rememberPassword":
             MessageLookupByLibrary.simpleMessage("Remembered Your Password?"),
+        "resend": MessageLookupByLibrary.simpleMessage("Resend"),
         "selectCountry": MessageLookupByLibrary.simpleMessage("Select country"),
         "selectedLanguage": MessageLookupByLibrary.simpleMessage("English"),
         "send": MessageLookupByLibrary.simpleMessage("Send"),
@@ -62,6 +66,10 @@ class MessageLookup extends MessageLookupByLibrary {
             "Log in to follow up and get our best offers and discounts"),
         "skipButtom": MessageLookupByLibrary.simpleMessage("Skip"),
         "userName": MessageLookupByLibrary.simpleMessage("User Name"),
+        "verificationMessage": MessageLookupByLibrary.simpleMessage(
+            "Please enter the activation code sent to the number +966 *** *** **63 to create a new password"),
+        "verificationcode":
+            MessageLookupByLibrary.simpleMessage("Verification Code"),
         "welcome": MessageLookupByLibrary.simpleMessage("Welcome in Auro")
       };
 }

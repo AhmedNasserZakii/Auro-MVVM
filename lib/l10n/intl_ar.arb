@@ -26,6 +26,13 @@
     "emailorphone" : "البريد الالكتروني او رقم الجوال",
     "send" : "إرسال",
     "rememberPassword" : "تذكرت كلمة السر؟",
-    "backToSignIn":"العودة لتسجيل الدخول"
+    "backToSignIn":"العودة لتسجيل الدخول",
+    "verificationcode": "رمز التفعيل",
+    "verificationMessage":"يرجي ادخال رمز التفعيل المرسل علي رقم +966 *** *** **63 لإنشاء كلمة مرور جديد",
+    "didnotRecive":"لم يصلك الرمز ؟",
+    "resend":"إعادة إرسال",
+    "confirm":"تأكيد"
+    
+
 
 }
