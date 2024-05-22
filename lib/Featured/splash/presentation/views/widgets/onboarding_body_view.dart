@@ -17,7 +17,11 @@ class OnboardingBodyView extends StatelessWidget {
           hasScrollBody: false,
           child: Column(
             children: [
-              const OnboardingImage(),
+              const Hero(
+                tag: 'splash',
+                transitionOnUserGestures: true,
+                child: OnboardingImage(),
+              ),
               Expanded(
                 child: Container(
                   width: double.infinity,
