@@ -5,8 +5,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
 
 import 'custom_appbar_back_icon.dart';
-import 'package:auro_v2/constant.dart';
-import 'package:auro_v2/core/utils/styles.dart';
+
 import 'package:auro_v2/generated/l10n.dart';
 import 'headet_texts.dart';
 import 'registration_info_section.dart';

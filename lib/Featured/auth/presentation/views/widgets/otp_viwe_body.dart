@@ -1,7 +1,7 @@
 import 'package:auro_v2/Featured/auth/presentation/views/widgets/buttom_screen_row_section.dart';
-import 'package:auro_v2/constant.dart';
+
 import 'package:auro_v2/core/utils/app_router.dart';
-import 'package:auro_v2/core/utils/styles.dart';
+
 import 'package:auro_v2/core/widgets/custom_elevated_button.dart';
 import 'package:auro_v2/generated/l10n.dart';
 import 'package:flutter/material.dart';
