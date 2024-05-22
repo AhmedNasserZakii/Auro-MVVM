@@ -409,6 +409,26 @@ class S {
       args: [],
     );
   }
+
+  /// `What are your interests?`
+  String get interests {
+    return Intl.message(
+      'What are your interests?',
+      name: 'interests',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Choosing your interests helps us provide better suggestions and an improved experience within the Ouro app.`
+  String get interestsMessage {
+    return Intl.message(
+      'Choosing your interests helps us provide better suggestions and an improved experience within the Ouro app.',
+      name: 'interestsMessage',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

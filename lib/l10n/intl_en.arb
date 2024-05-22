@@ -34,7 +34,10 @@
     "confirm": "Confirm",
     "createNewPassword": "Create New Password",
     "createNewPasswordMessage": "Please use a new password and avoid using previous passwords to ensure your protection.",
-    "create": "Create"
+    "create": "Create",
+    "interests": "What are your interests?",
+    "interestsMessage": "Choosing your interests helps us provide better suggestions and an improved experience within the Ouro app."
+
 
 
 }

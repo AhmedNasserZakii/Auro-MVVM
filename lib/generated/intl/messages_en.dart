@@ -52,6 +52,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Enter your phoner Number"),
         "forgetPassword":
             MessageLookupByLibrary.simpleMessage("Forget Password ?"),
+        "interests":
+            MessageLookupByLibrary.simpleMessage("What are your interests?"),
+        "interestsMessage": MessageLookupByLibrary.simpleMessage(
+            "Choosing your interests helps us provide better suggestions and an improved experience within the Ouro app."),
         "language": MessageLookupByLibrary.simpleMessage("Language"),
         "messageForOTP": MessageLookupByLibrary.simpleMessage(
             "Please enter the phone number or email registered with us to receive the verification code"),

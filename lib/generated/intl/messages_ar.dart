@@ -53,6 +53,9 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("ادخل رقم الجوال"),
         "forgetPassword":
             MessageLookupByLibrary.simpleMessage("نسيت كلمة السر؟"),
+        "interests": MessageLookupByLibrary.simpleMessage("ماهي اهتمامتك ؟"),
+        "interestsMessage": MessageLookupByLibrary.simpleMessage(
+            "اختيارك لاهتمامتك تساعدنا علي تقديم افضل الاقتراحات وتجربة افضل لديك داخل تطبيق اورو"),
         "language": MessageLookupByLibrary.simpleMessage("اللغة"),
         "messageForOTP": MessageLookupByLibrary.simpleMessage(
             "من فضلك ، قم بإدخال رقم الهاتف او البريد المسجل لدينا ليصلك عليه رمز التفعيل"),
