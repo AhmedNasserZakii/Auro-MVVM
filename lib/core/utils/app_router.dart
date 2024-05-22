@@ -2,6 +2,7 @@ import 'package:auro_v2/Featured/auth/presentation/views/create_new_password.dar
 import 'package:auro_v2/Featured/auth/presentation/views/forget_password_view.dart';
 import 'package:auro_v2/Featured/auth/presentation/views/otp_view.dart';
 import 'package:auro_v2/Featured/auth/presentation/views/sign_in_view.dart';
+import 'package:auro_v2/Featured/interests/presentation/views/interests_view.dart';
 import 'package:auro_v2/Featured/splash/presentation/views/onboarding_view.dart';
 import 'package:auro_v2/Featured/splash/presentation/views/select_region_view.dart';
 import 'package:go_router/go_router.dart';
@@ -17,6 +18,7 @@ abstract class AppRouter {
   static const kForgetPasswordView = '/forgetPasswordView';
   static const kOTPView = '/otpView';
   static const kCreateNewPasswordView = '/createNewPasswordView';
+  static const kInterestsView = '/interestsView';
   static final GoRouter router = GoRouter(routes: [
     GoRoute(
       path: '/',
@@ -49,6 +51,10 @@ abstract class AppRouter {
     GoRoute(
       path: kCreateNewPasswordView,
       builder: (context, state) => const CreateNewPassword(),
+    ),
+    GoRoute(
+      path: kInterestsView,
+      builder: (context, state) => const InterestsView(),
     ),
   ]);
 }

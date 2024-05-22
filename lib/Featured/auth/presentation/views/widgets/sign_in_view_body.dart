@@ -40,7 +40,10 @@ class SignInViewBody extends StatelessWidget {
                         SizedBox(height: 14.h),
                         CustomElevatedButton(
                           title: S.of(context).signIn,
-                          onPressed: () {},
+                          onPressed: () {
+                            GoRouter.of(context)
+                                .pushReplacement(AppRouter.kInterestsView);
+                          },
                         ),
                         Expanded(
                           child: SizedBox(
